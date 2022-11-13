@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\css\nepali.datepicker.v4.0.min.css" />
+    <None Include="wwwroot\js\nepali.datepicker.v4.0.min.js" />
+  </ItemGroup>
+
+</Project>

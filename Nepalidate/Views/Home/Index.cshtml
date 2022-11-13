@@ -1,0 +1,27 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+
+<p>
+    <input type="text"
+           id="nepali-datepicker"
+           placeholder="Select Nepali Date" />
+</p>
+
+<!-- Nepali Datepicker Script -->
+@section Scripts{
+   
+    <script type="text/javascript">
+        window.onload = function () {
+            var mainInput = document.getElementById("nepali-datepicker");
+            mainInput.nepaliDatePicker({
+                ndpYear: true,
+                ndpMonth: true,
+                ndpYearCount: 10
+            });
+        };
+    </script>
+}
+
